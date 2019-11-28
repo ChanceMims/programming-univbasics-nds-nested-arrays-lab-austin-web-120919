@@ -20,8 +20,8 @@ def assembled_matrix
   # Build an array that contains (or, "nests") the residents of The Ennet House
   # and the Enfield Tennis Academy as provided by the constants
   a_o_a = [
-    ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"],
-    ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"]
+    ENNET_HOUSE,
+    ENFIELD_TENNIS_ACADEMY
   ]
 end
 
@@ -33,7 +33,6 @@ def array_literal_matrix
   ENNET_HOUSE.sort,
   ENFIELD_TENNIS_ACADEMY.sort
   ]
-  a_o_a.sort!
 end
 
 def matrix_lookup(matrix, row, column)
