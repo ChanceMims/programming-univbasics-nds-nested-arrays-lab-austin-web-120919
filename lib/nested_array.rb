@@ -21,7 +21,7 @@ def assembled_matrix
   # and the Enfield Tennis Academy as provided by the constants
   a_o_a = [
     ["Don Gately", "Joelle van Dyke", "Pat M.", "Kate Gompert", "Bruce Green"],
-    ["Hal Incandenza", "Lyle", "Gerhard Schitt", "Mario Incandenza", "Michael Pumulis"]
+    ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pumulis"]
   ]
 end
 
@@ -31,7 +31,7 @@ def array_literal_matrix
   # alphabetically by the first character.
   a_o_a = [
     ["Don Gately", "Joelle van Dyke", "Pat M.", "Kate Gompert", "Bruce Green"],
-    ["Hal Incandenza", "Lyle", "Gerhard Schitt", "Mario Incandenza", "Michael Pumulis"]
+    ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pumulis"]
   ]
   a_o_a.sort
 end
