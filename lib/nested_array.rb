@@ -20,7 +20,7 @@ def assembled_matrix
   # Build an array that contains (or, "nests") the residents of The Ennet House
   # and the Enfield Tennis Academy as provided by the constants
   a_o_a = [
-    ["Don Gately", "Joelle van Dyke", "Pat M.", "Kate Gompert", "Bruce Green"],
+    ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"],
     ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pumulis"]
   ]
 end
@@ -30,7 +30,7 @@ def array_literal_matrix
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
   a_o_a = [
-    ["Don Gately", "Joelle van Dyke", "Pat M.", "Kate Gompert", "Bruce Green"],
+    ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"],
     ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pumulis"]
   ]
   a_o_a.sort
